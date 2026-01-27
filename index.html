@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/12d884e548.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <a href="#header" id="top"><i class="fa-solid fa-circle-up"></i></a>
+    <!-- ------------Header------------  -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <i class="fa-solid fa-bars menu" onclick="openmenu()"></i>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <h1>Hi there,<br />I'm <span>Ibra Fatima.</span></h1>
+          <span id="element">Web Developer</span><br />
+          <a href="https://github.com/ibrafatima/" class="github"
+            ><i class="fa-brands fa-github"></i>Github</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------About--------------  -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <div class="video-container">
+              <video autoplay muted loop>
+                <source src="15283162-hd_1080_1920_30fps.mp4" type="video/mp4" />
+              </video>
+              <div class="caption">
+                <p>1&nbsp;&nbsp;class <b>Person</b></p>
+                <p>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor() {</p>
+                <p>
+                  3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "<b
+                    >Ibra Fatima</b
+                  >";
+                </p>
+                <p>
+                  4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits =
+                  ["<b>Programming</b>", "<b>DEV</b>"];
+                </p>
+                <p>
+                  5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = new
+                  Date().getFullYear() - 2003;
+                </p>
+                <p>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</p>
+                <pre>7&nbsp;&nbsp;}</pre>
+              </div>
+            </div>
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title"><i class="fas fa-user-alt"></i> About me</h1>
+            <p>
+              I am an Information Technology student pursuing B.Tech. from JSSATE-N. I 
+              have  developed skills in MERN Stack Web development with many personal
+             projects that are
+              available on github.I have a Strong academic background with average of GPA of 8.65.
+               I have also done Data Structure and Algorithm
+              in C++ and have  solved 100+ problems on
+              leetcode Explore my work and feel free to reach out!
+            </p>
+            <div class="about_btn">
+              <a href="Ibra's Resume.pdf" download class="btn2"
+                ><i class="fa-solid fa-download"></i> Resume</a
+              >
+              <a
+                href="https://www.linkedin.com/in/ibra-fatima-0a6876249/"
+                class="btn2"
+                ><i class="fa-brands fa-linkedin"></i> Linkedin</a
+              >
+              <a
+                href="https://leetcode.com/u/ibra_fatima/
+                class="btn2"
+                ><i class="fa-solid fa-code"></i>Leetcode</a
+              >
+            </div>
+
+            <div class="tab-titles">
+              <p
+                class="tab-links active-link"
+                onclick="opentab('education')"
+                id="font"
+              >
+
+                Education
+              </p>
+              <p
+                class="tab-links"
+                onclick="opentab('certifications')"
+                id="font"
+              >
+                Certifications
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li>
+                  <div class="tab_head">
+                    <span>B.Tech(IT)</span><br />
+                    <p class="">2022-2026</p>
+                  </div>
+                  <div class="tab_head">
+                    JSS Academy of Technical Education, Noida
+                    <p>8.65</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="tab_head">
+                    <span>Intermediate</span><br />
+                    <p class="">2020-2021</p>
+                  </div>
+                  <div class="tab_head">
+                    Maharishi Vidya Mandir Sr. Sec. School, Fatehpur, UP, India
+                    <p>94.8%</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="tab_head">
+                    <span>Highschool</span><br />
+                    <p class="">2018-2019</p>
+                  </div>
+                  <div class="tab_head">
+                    Maharishi Vidya Mandir Sr. Sec. School, Fatehpur, UP, India
+                    <p>95.6%</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="certifications">
+              <ul>
+                <li>
+                  <div class="tab_head"><span>Full Stack Web Development Course</span><br /></div>
+                  Apna College <li><a 
+    href="full stack letter of completion.png" 
+    download="Full_Stack_Certificate"
+    class="download-btn"
+  >
+    Download Certificate
+  </a></li>
+                </li>
+              
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------- Experience------------------------- -->
+
+    <section id="experience" class="experience-section">
+      <div class="container">
+        <h2 class="sub-title pro">
+          <i class="fa fa-briefcase"></i> Experience
+        </h2>
+        <div class="experience-list">
+          <div class="experience-item">
+            <h2>Hasan International</h2>
+            <h4>August 2025 - October 2025</h4>
+            <h4 class="position">Full Stack Web Developer</h4>
+            <ul>
+              <li>
+                <span class="bold">Website Management & Updates : </span> During my internship as a Full Stack Web Developer, I worked on the development and customization of their Shopify-based e-commerce website from design implementation to deployment. I customized the Shopify theme using Liquid, HTML, CSS, and JavaScript to build responsive and user-friendly pages.
+I contributed to developing custom sections, product pages, collections, and UI components, and handled store configurations such as products, payments, and app integrations. I also worked on improving performance, fixing UI issues, and ensuring cross-device compatibility.
+This internship gave me hands-on experience with end-to-end Shopify development, real-world e-commerce workflows, and client-focused implementation.
+              </li>
+              <li>
+                <span class="bold">E-commerce : </span> 
+                I worked on core e-commerce functionalities such as product listings, collections, product detail pages, cart and checkout flow, and store navigation.
+                I also handled Shopify admin configurations, including product management, pricing, inventory, payment gateways, and app integrations.
+              </li>
+              <div class="experience-links">
+  <a href="Hasan International Internship Program.pdf" target="_blank" rel="noopener">
+    Offer Letter
+  </a>
+  <span>|</span>
+  <a href="assets/documents/completion-certificate.pdf" target="_blank" rel="noopener">
+    Certificate of Completion
+  </a>
+</div>
+            </ul>
+
+          </div>
+          
+  
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------Skills--------------------- -->
+    <div id="skills" class="skills">
+      <div class="container">
+        <h2 class="sub-title pro">
+          <i class="fas fa-laptop-code"></i> My Skills
+        </h2>
+
+        <div class="s_container">
+          <div class="row" id="skillsContainer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------Projects-------------------  -->
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title pro">
+          <i class="fas fa-laptop-code"></i> My Projects
+        </h1>
+        <div class="wrap">
+          <img src="left-arrow.png" id="backBtn" />
+          <div class="work-list">
+            <div class="div2">
+              <div class="work">
+                <img src="multiai.png" alt="Multimind-AI" />
+                <div class="layer">
+                  <h3>Multimind-AI</h3>
+                  <p>
+                    An AI SaaS web application where users input prompts and receive AI-generated creative.
+                    Developed secure frontend input handling and backend API processing to deliver real-time AI responses.
+                     Implemented AI API integrations and PostgreSQL-backed data flow for storing and managing user interactions.
+            
+                  </p>
+                  <a href="https://multimindai.vercel.app/" target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="gamingone.png" alt="Gaming-one" />
+                <div class="layer">
+                  <h3>Gaming-one</h3>
+                  <p>
+                    Built a responsive gaming zone website featuring popular games and gaming content with a modern, interactive UI.
+                    This project highlights my skills in front-end development, UI design, and creating dynamic, user-focused web experiences optimised across devices.
+                  </p>
+                  <a href="http://gamingone.netlify.app/" target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="cinepolls1.png" alt="Cinepolls" />
+                <div class="layer">
+                  <h3>Cinepolls</h3>
+                  <p>Designed and developed a responsive Movie Blog Website that presents movie reviews, ratings, and entertainment content in a clean and engaging layout.
+                      This project demonstrates my ability to create user-centric web interfaces with a focus on usability and visual consistency.
+                    
+                  </p>
+                  <a href="http://cinepolls.com/" target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="div2 lower">
+              <div class="work">
+                <img src="easycure.png" alt="Easy-cure" />
+                <div class="layer">
+                  <h3>Easy-cure</h3>
+                  <p>
+                    Built a comprehensive web application designed to streamline doctor-patient interactions and appointment scheduling for clinics and hospitals.
+                    The platform includes three user roles: Administrator, Doctor, and Patient, each with specific functionality for efficient medical appointment management. 
+                  </p>
+                  <a href="https://github.com/ibrafatima/EasyCure-" target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="Docuthinker.png" alt="TutorialsHub" />
+                <div class="layer">
+                  <h3>Docu-Thinker</h3>
+                  <p>
+                    An innovative solution designed to enhance document analysis through AI technology,
+                     making it easier for users to manage and interact with documents effectively.
+.
+                  </p>
+                  <a
+                    href="https://docuthinker.vercel.app/"
+                    target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="coming-soon image.jpg" alt="Project 6" />
+                <div class="layer">
+                  <h3>Project 6</h3>
+                  <p>
+                    Currently working on it. Will be uploaded soon!.
+                  </p>
+                  <!-- <a href="" target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="div2 lower">
+              <div class="work">
+                <img src="coming-soon image.jpg" alt="Project 7" />
+                <div class="layer">
+                  <h3>Project 7</h3>
+                  <p>
+                    Currently working on it. Will be uploaded soon!.
+                  </p>
+                  <!-- <a href="" target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a> -->
+                </div>
+              </div>
+              <div class="work">
+                <img src="coming-soon image.jpg" alt="Project 8" />
+                <div class="layer">
+                  <h3>Project 8</h3>
+                  <p>
+                    Currently working on it. Will be uploaded soon!.
+                  </p>
+                  <!-- <a
+                    href=""
+                    target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a> -->
+                </div>
+              </div>
+              <div class="work">
+                <img src="coming-soon image.jpg" alt="Project 9" />
+                <div class="layer">
+                  <h3>Project 9</h3>
+                  <p>
+                    Currently working on it. Will be uploaded soon!.
+                  </p>
+                  <!-- <a
+                    href=""
+                    target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="div2 lower">
+              <div class="work">
+                <img src="coming-soon image.jpg" alt="Project 10" />
+                <div class="layer">
+                  <h3>Project 10</h3>
+                  <p>
+                    Currently working on it. Will be uploaded soon!.
+                  </p>
+                  <!-- <a
+                    href=""
+                    target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a> -->
+                </div>
+              </div>
+              <div class="work">
+                <img src="coming-soon image.jpg" alt="Project 11" />
+                <div class="layer">
+                  <h3>Project 11</h3>
+                  <p>
+                    Currently working on it. Will be uploaded soon!.
+                  </p>
+                  <!-- <a
+                    href=""
+                    target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a> -->
+                </div>
+              </div>
+              <div class="work">
+                <img src="coming-soon image.jpg" alt="Project 12" />
+                <div class="layer">
+                  <h3>Project 12</h3>
+                  <p>
+                    Currently working on it. Will be uploaded soon!.
+                  </p>
+                  <!-- <a
+                    href=""
+                    target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="right-arrow.png" id="nextBtn" />
+        </div>
+        <a href="https://github.com/ibrafatima/" class="btn"
+          >See more<i class="fa-solid fa-circle-arrow-right"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- -----------Contact--------  -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Get in Touch</h1>
+            <p><i class="fa-solid fa-envelope"></i>ibrafatima12c@gmail.com</p>
+            <p><i class="fa-brands fa-linkedin"></i></i><a href="https://www.linkedin.com/in/ibra-fatima-0a6876249/" style="color: white;">ibra-fatima-0a6876249</a></p>
+            <a href="Ibra's Resume.pdf" download class="btn btn2"
+              ><i class="fa-solid fa-download"></i>Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form
+              action="https://formspree.io/f/xzdeklye"
+              method="POST"
+              autocomplete="off"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="d88b79bb-59c0-43bd-a49e-777e388013f4"
+              />
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Email Address"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="3"
+                placeholder="Your Message"
+              ></textarea>
+              <button class="btn btn2" type="submit">
+                <i class="fa-solid fa-paper-plane"></i>Send Message
+              </button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Ibra Fatima</p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./skills.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
